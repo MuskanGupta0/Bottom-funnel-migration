@@ -1,17 +1,17 @@
 import React from "react";
-import "./SkillsComWhyApp.css";
+import styles from "./SkillsComWhyApp.module.css";
 
 export const SkillsComWhyApp = ({ data }) => {
   const { title, cardsData } = data;
 
   return (
-    <div className="skills-why-application-main">
+    <div className={styles.skillswhyapplicationmain}>
       <h1>{title}</h1>
-      <div className="skills-why-application-content">
+      <div className={styles.skillswhyapplicationcontent}>
         {cardsData.map(({ img, title, description }, idx) => {
           return (
             <div key={idx}>
-              <div className="skills-why-appl-cards-images-div">
+              <div className={styles.skillswhyapplcardsimagesdiv}>
                 <img src={img.src} alt={img.alt} />
               </div>
               <h3>{title}</h3>

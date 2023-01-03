@@ -1,8 +1,8 @@
-.skills-why-main {
+.skillswhymain {
   margin: 50px auto;
 }
 
-.skills-why-main > h1 {
+.skillswhymain > h1 {
   color: #ef4c23;
   width: 85%;
   margin: auto;
@@ -10,7 +10,7 @@
   font-size: 32px;
 }
 
-.skills-why-content {
+.skillswhycontent {
   width: 90%;
   margin: auto;
 
@@ -19,16 +19,16 @@
   justify-content: space-evenly;
 }
 
-.skills-bullets-points-image {
+.skillsbulletspointsimage {
   width: 30%;
   padding: 0 20px 0 20px;
 }
 
-.skills-bullets-points-image > img {
+.skillsbulletspointsimage > img {
   width: 100%;
 }
 
-.skills-bullets-points-main {
+.skillsbulletspointsmain {
   width: 55%;
   height: 100%;
 
@@ -36,12 +36,12 @@
   align-items: center;
 }
 
-.skills-bullets-points {
+.skillsbulletspoints {
   width: 80%;
   margin: auto;
 }
 
-.skills-bullets-points > p {
+.skillsbulletspoints > p {
   font-size: 20px;
 
   cursor: pointer;
@@ -51,7 +51,7 @@
   align-items: center;
 }
 
-.skills-bullets-points > p:hover {
+.skillsbulletspoints > p:hover {
   color: #ef4c23;
   margin-left: 10%;
   transform: scale(120%);
@@ -61,29 +61,29 @@
 /* Media Query for Mobile Devices */
 
 @media (max-width: 480px) {
-  .skills-why-main {
+  .skillswhymain {
     width: 98%;
   }
 
-  .skills-why-main > h1 {
+  .skillswhymain > h1 {
     font-size: 20px;
     width: 100%;
     margin-bottom: 2%;
   }
 
-  .skills-why-content {
+  .skillswhycontent {
     width: 100%;
   }
 
-  .skills-bullets-points-main {
+  .skillsbulletspointsmain {
     width: 69%;
   }
 
-  .skills-bullets-points {
+  .skillsbulletspoints {
     width: 90%;
   }
 
-  .skills-bullets-points > p {
+  .skillsbulletspoints > p {
     font-size: 10px;
     gap: 5px;
     margin-bottom: 2%;
@@ -93,29 +93,29 @@
 /* Media Query for low resolution  Tablets, Ipads */
 
 @media (min-width: 481px) and (max-width: 767px) {
-  .skills-why-main {
+  .skillswhymain {
     width: 95%;
   }
 
-  .skills-why-main > h1 {
+  .skillswhymain > h1 {
     font-size: 25px;
     width: 95%;
     margin-bottom: 2%;
   }
 
-  .skills-why-content {
+  .skillswhycontent {
     width: 100%;
   }
 
-  .skills-bullets-points-main {
+  .skillsbulletspointsmain {
     width: 69%;
   }
 
-  .skills-bullets-points {
+  .skillsbulletspoints {
     width: 85%;
   }
 
-  .skills-bullets-points > p {
+  .skillsbulletspoints > p {
     font-size: 14px;
     gap: 5px;
     margin-bottom: 2%;
@@ -125,29 +125,29 @@
 /* Media Query for Tablets Ipads portrait mode */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  .skills-why-main {
+  .skillswhymain {
     width: 95%;
   }
 
-  .skills-why-main > h1 {
+  .skillswhymain > h1 {
     font-size: 25px;
     width: 95%;
     margin-bottom: 2%;
   }
 
-  .skills-why-content {
+  .skillswhycontent {
     width: 100%;
   }
 
-  .skills-bullets-points-main {
+  .skillsbulletspointsmain {
     width: 50%;
   }
 
-  .skills-bullets-points {
+  .skillsbulletspoints {
     width: 80%;
   }
 
-  .skills-bullets-points > p {
+  .skillsbulletspoints > p {
     font-size: 16px;
     gap: 5px;
     margin-bottom: 2%;

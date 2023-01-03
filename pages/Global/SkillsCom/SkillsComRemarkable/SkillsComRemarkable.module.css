@@ -1,11 +1,11 @@
-.skills-remarkable-main {
+.skillsremarkablemain {
   width: 85%;
   margin: auto;
   text-align: left;
   padding: 20px;
 }
 
-.skills-remarkable-main > h1 {
+.skillsremarkablemain > h1 {
   color: #ef4c23;
   text-transform: uppercase;
 
@@ -14,13 +14,13 @@
   margin-bottom: 10px;
 }
 
-.skills-remarkable-main > p {
+.skillsremarkablemain > p {
   margin: 0px;
 
   font-size: 16px;
 }
 
-.skills-remarkable-solutions {
+.skillsremarkablesolutions {
   margin: auto;
   margin-top: 30px;
   height: fit-content;
@@ -33,7 +33,7 @@
   justify-content: space-evenly;
 }
 
-.skills-remarkable-solutions > div {
+.skillsremarkablesolutions > div {
   width: 30%;
   padding: 10px;
   border-radius: 10px;
@@ -45,20 +45,20 @@
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.skills-remarkable-solutions > div:hover {
+.skillsremarkablesolutions > div:hover {
   margin-top: 5px;
   transition: all 0.2s linear;
 }
-.skills-remarkable-solutions > div > h4 {
+.skillsremarkablesolutions > div > h4 {
   margin: 0px;
   font-size: 16px;
 }
 
-.skills-remarkable-image {
+.skillsremarkableimage {
   width: 20%;
   height: 50px;
 }
-.skills-remarkable-image > img {
+.skillsremarkableimage > img {
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -67,27 +67,27 @@
 /* Media Query for Mobile Devices */
 
 @media (max-width: 480px) {
-  .skills-remarkable-main {
+  .skillsremarkablemain {
     width: 95%;
   }
-  .skills-remarkable-main > h1 {
+  .skillsremarkablemain > h1 {
     font-size: 16px;
   }
 
-  .skills-remarkable-main > p {
+  .skillsremarkablemain > p {
     font-size: 10px;
   }
 
-  .skills-remarkable-solutions > div {
+  .skillsremarkablesolutions > div {
     width: 46%;
     gap: 5px;
   }
 
-  .skills-remarkable-image {
+  .skillsremarkableimage {
     height: 30px;
   }
 
-  .skills-remarkable-solutions > div > h4 {
+  .skillsremarkablesolutions > div > h4 {
     font-size: 10px;
   }
 }
@@ -95,27 +95,27 @@
 /* Media Query for low resolution  Tablets, Ipads */
 
 @media (min-width: 481px) and (max-width: 1024px) {
-  .skills-remarkable-main {
+  .skillsremarkablemain {
     width: 95%;
   }
-  .skills-remarkable-main > h1 {
+  .skillsremarkablemain > h1 {
     font-size: 20px;
   }
 
-  .skills-remarkable-main > p {
+  .skillsremarkablemain > p {
     font-size: 12px;
   }
 
-  .skills-remarkable-solutions > div {
+  .skillsremarkablesolutions > div {
     width: 46%;
     gap: 5px;
   }
 
-  .skills-remarkable-image {
+  .skillsremarkableimage {
     height: 40px;
   }
 
-  .skills-remarkable-solutions > div > h4 {
+  .skillsremarkablesolutions > div > h4 {
     font-size: 12px;
   }
 }
