@@ -4,12 +4,12 @@ import { SkillsComBookCall } from "../Global/SkillsCom/SkillsComBookCall";
 import { SkillsComRemarkable } from "../Global/SkillsCom/SkillsComRemarkable";
 import { SkillsComDes } from "../Global/SkillsCom/SkillsComDes";
 
-import { nodejsData } from "../Data/SkillsData";
+import { djangoData } from "../Data/SkillsData";
 import { SkillsComWhyApp } from "../Global/SkillsCom/SkillsComWhyApp";
 import { SkillsComWhyBF } from "../Global/SkillsCom/SkillsComWhyBF";
 import Head from "next/head";
 
-function SkillsNodejs() {
+function SkillsDjango() {
   const {
     title,
     description,
@@ -25,7 +25,7 @@ function SkillsNodejs() {
     BookCallData,
     isRemarkable,
     RemarkableData,
-  } = nodejsData;
+  } = djangoData;
 
   return (
     <div style={{ color: "#393939" }}>
@@ -44,4 +44,4 @@ function SkillsNodejs() {
   );
 }
 
-export default SkillsNodejs;
+export default SkillsDjango;

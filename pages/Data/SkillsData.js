@@ -42,7 +42,8 @@
 // Phalcon -
 
 export const nodejsData = {
-  title: "Best nodejs developers in the market | Bottom Funnel",
+  title:
+    "Best nodejs developers in the market |Bottom Funnel Technologies Pvt. Ltd.",
   description:
     "When it comes to node.js web development, there is no-one better than Bottom Funnel node.js developers, who develop robust applications and websites that will meet your exact needs.",
   isBanner: true,
@@ -182,7 +183,8 @@ export const nodejsData = {
 };
 
 export const phpData = {
-  title: "Best PHP developers in the market | Bottom Funnel",
+  title:
+    "Best PHP developers in the market | Bottom Funnel Technologies Pvt. Ltd.",
   description:
     "Bottom funnel's php web development services are the best way to start your website development journey. Get in touch with the best php developers in the market to develop robust applications and websites that look great. ",
   isBanner: true,
@@ -325,7 +327,8 @@ export const phpData = {
 };
 
 export const DotnetData = {
-  title: "Best .NET developers in the market | Bottom Funnel",
+  title:
+    "Best .NET developers in the market | Bottom Funnel Technologies Pvt. Ltd.",
   description:
     "Bottom Funnel gets you the best .NET developers in the market who can develop robust applications and websites using the latest technologies like ASP.net and VB.net on an hourly, part-time and full-time contract basis.",
   isBanner: true,
@@ -475,7 +478,8 @@ export const DotnetData = {
 };
 
 export const laravelData = {
-  title: "Best larvels developers in the market | Bottom Funnel",
+  title:
+    "Best larvels developers in the market | Bottom Funnel Technologies Pvt. Ltd.",
   description:
     "Bottom Funnel is a globally dominant company having highly experienced Laravel developers. Our Laravel development services can support you for all your different types of application development needs.",
   isBanner: true,
@@ -618,7 +622,8 @@ export const laravelData = {
 };
 
 export const djangoData = {
-  title: "Best django developers in the market | Bottom Funnel",
+  title:
+    "Best django developers in the market | Bottom Funnel Technologies Pvt. Ltd.",
   description:
     "Bottom Funnel is a globally dominant company having highly experienced django developers. Our django development services can support you for all your different types of application development needs.",
   isBanner: true,
@@ -760,7 +765,8 @@ export const djangoData = {
 };
 
 export const cakePHPData = {
-  title: "Best cakePHP developers in the market | Bottom Funnel",
+  title:
+    "Best cakePHP developers in the market | Bottom Funnel Technologies Pvt. Ltd.",
   description:
     "Bottom Funnel is a globally dominant company having highly experienced cakePHP developers. Our cakePHP development services can support you for all your different types of application development needs.",
   isBanner: true,
@@ -903,7 +909,8 @@ export const cakePHPData = {
 };
 
 export const codeigniterData = {
-  title: "Best codeigniter developers in the market | Bottom Funnel",
+  title:
+    "Best codeigniter developers in the market | Bottom Funnel Technologies Pvt. Ltd.",
   description:
     "Bottom Funnel is a globally dominant company having highly experienced codeigniter developers. Our codeigniter development services can support you for all your different types of application development needs.",
   isBanner: true,
@@ -1053,7 +1060,8 @@ export const codeigniterData = {
 };
 
 export const reactjsData = {
-  title: "Best reactjs developers in the market | Bottom Funnel",
+  title:
+    "Best reactjs developers in the market | Bottom Funnel Technologies Pvt. Ltd.",
   description:
     "Bottom Funnel is a globally dominant company having highly experienced reactjs developers. Our reactjs development services can support you for all your different types of application development needs.",
   isBanner: true,
@@ -1201,7 +1209,8 @@ export const reactjsData = {
 };
 
 export const angularjsData = {
-  title: "Best angolarjs developers in the market | Bottom Funnel",
+  title:
+    "Best angolarjs developers in the market | Bottom Funnel Technologies Pvt. Ltd.",
   description:
     "Bottom Funnel is a globally dominant company having highly experienced angolarjs developers. Our angolarjs development services can support you for all your different types of application development needs.",
   isBanner: true,
@@ -1347,7 +1356,8 @@ export const angularjsData = {
 };
 
 export const vuejsData = {
-  title: "Best vuejs developers in the market | Bottom Funnel",
+  title:
+    "Best vuejs developers in the market | Bottom Funnel Technologies Pvt. Ltd.",
   description:
     "Bottom Funnel is a globally dominant company having highly experienced vuejs developers. Our vuejs development services can support you for all your different types of application development needs.",
   isBanner: true,
@@ -1496,7 +1506,8 @@ export const vuejsData = {
 };
 
 export const springBootData = {
-  title: "Best springboot developers in the market | Bottom Funnel",
+  title:
+    "Best springboot developers in the market | Bottom Funnel Technologies Pvt. Ltd.",
   description:
     "Bottom Funnel is a globally dominant company having highly experienced springboot developers. Our springboot development services can support you for all your different types of application development needs.",
   isBanner: true,

@@ -14,7 +14,7 @@ export const SkillsComDes = ({ DescrptionData }) => {
           src={image}
           className={styles.skillsdesimageimg}
           height="100%"
-          alt="Nodejs logo"
+          alt={`${title} logo`}
         />
       </div>
     </div>
