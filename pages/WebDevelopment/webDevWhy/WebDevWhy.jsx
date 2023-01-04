@@ -10,7 +10,7 @@ export const WebDevWhy = ({ whyDevContent }) => {
         </h1>
         <p>{whyDevContent.intro}</p>
       </div>
-      
+
       <div className={styles.whyDevreasons}>
         {whyDevContent.feature.map((item, index) => (
           <div key={index} className={styles.whyfeatureCard}>

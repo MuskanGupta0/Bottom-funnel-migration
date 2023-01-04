@@ -47,7 +47,7 @@ const PlanProject = () => {
           <Box sx={style}>
             <Typography id="modal-modal-title" variant="h6" component="h2">
               <div className={styles.popform}>
-                <PopupForm/>
+                <PopupForm />
               </div>
             </Typography>
           </Box>

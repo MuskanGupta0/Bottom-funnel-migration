@@ -1,12 +1,12 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "./moreServices.css";
+import styles from "./moreServices.module.css";
 const MoreServices = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="footerTable">
-      <div className="innerTable">
+    <div className={styles.footerTable}>
+      <div className={styles.innerTable}>
         <p>Trending Technologies</p>
         <p>Big data services</p>
         <p>Blockchain services</p>
@@ -24,7 +24,7 @@ const MoreServices = () => {
         <p>Metaverse services</p>
       </div>
 
-      <div className="innerTable">
+      <div className={styles.innerTable}>
         <p>On Demand Solutions</p>
         <p onClick={() => navigate("/food-delivery")}>Food Delivery App</p>
         <p onClick={() => navigate("/ondemandHomeServices")}>
@@ -45,7 +45,7 @@ const MoreServices = () => {
         <p onClick={() => navigate("/Icecream")}>Icecream Delivery App </p>
       </div>
 
-      <div className="innerTable">
+      <div className={styles.innerTable}>
         <p>Industry We Serve</p>
         <p onClick={() => navigate("/education")}>Education</p>
         <p onClick={() => navigate("/gameDevelopment")}>Gaming</p>
@@ -67,7 +67,7 @@ const MoreServices = () => {
         <p onClick={() => navigate("/travel")}>Travel</p>
       </div>
 
-      <div className="innerTable">
+      <div className={styles.innerTable}>
         <p>Products</p>
         <p>Bottom Funnel Omnichannel</p>
         <p>Bottom Funnel Support Desk</p>

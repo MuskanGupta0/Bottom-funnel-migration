@@ -1,5 +1,5 @@
 import React from "react";
-import "./techStackintro.css";
+import styles from "./techStackintro.module.css";
 import { useState } from "react";
 export const Techstackintro = ({ techContent }) => {
   const [stack, setStack] = useState(0);
@@ -10,16 +10,16 @@ export const Techstackintro = ({ techContent }) => {
   };
 
   return (
-    <div className="aspTech-intro">
-      <div className="headText">
+    <div className={styles.aspTechIntro}>
+      <div className={styles.headText}>
         <h1>
           What is <span>{techContent.heading}</span> and its frameworks
         </h1>
         <p>{techContent.description}</p>
       </div>
 
-      <div className="asp-stack-main">
-        <div className="asp-techStack-grid">
+      <div className={styles.aspStackMain}>
+        <div className={styles.aspTechStackGrid}>
           {techContent.aspstack.map((item, index) => (
             <button
               style={
@@ -41,15 +41,15 @@ export const Techstackintro = ({ techContent }) => {
           ))}
         </div>
 
-        <div className="asp-stack-about">
-          <div className="tech-content-div">
-            <div className="stack-image">
+        <div className={styles.aspStackAbout}>
+          <div className={styles.techContentDiv}>
+            <div className={styles.stackImage}>
               <img
                 src={techContent.aspstack[stack].stackIcon}
                 alt="aspstack.png"
               />
             </div>
-            <div className="stack-introduction">
+            <div className={styles.stackIntroduction}>
               <p>{techContent.aspstack[stack].description}</p>
             </div>
           </div>

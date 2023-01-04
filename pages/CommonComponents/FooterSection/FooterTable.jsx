@@ -1,5 +1,5 @@
 import React from "react";
-import "./footertable.css";
+import styles from "./footertable.module.css";
 import { useNavigate } from "react-router-dom";
 
 
@@ -7,8 +7,8 @@ const FooterTable = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="footerTable">
-      <div className="innerTable">
+    <div className={styles.footerTable}>
+      <div className={styles.innerTable}>
         <p onClick={() => navigate("/about-us")}>About</p>
         <p onClick={() => navigate("/about-us")}>About Us</p>
         <p onClick={() => navigate("/about-us")}>Our Team</p>
@@ -23,7 +23,7 @@ const FooterTable = () => {
         <p onClick={() => navigate("/")}>Our partners</p>
       </div>
 
-      <div className="innerTable">
+      <div className={styles.innerTable}>
         <p onClick={() => navigate("/web-development")}>Web Development</p>
         <p onClick={() => navigate("/php-development")}>PHP Development</p>
         <p onClick={() => navigate("/mern-stack")}>MERN Stack Development</p>
@@ -36,7 +36,7 @@ const FooterTable = () => {
         <p onClick={() => navigate("/javascript-development")}>Javascript Development</p>
       </div>
 
-      <div className="innerTable">
+      <div className={styles.innerTable}>
         <p>Mobile App Development</p>
         <p onClick={() => navigate("/android")}>Android App Development</p>
         <p onClick={() => navigate("/ios")}>IOS App Development</p>
@@ -51,8 +51,8 @@ const FooterTable = () => {
         <p onClick={() => navigate("/mobile-user-experience")}>Mobile UX/UI</p>
       </div>
 
-      <div className="innerTable">
-        <p>Digital Marketing Services</p>
+      <div className={styles.innerTable}>
+        <p> Digital Marketing Services </p>
         <p onClick={() => navigate("/seo")}>Seo Services</p>
         <p onClick={() => navigate("/local-seo")}>Local Seo Services</p>
         <p onClick={() => navigate("/seo-sem")}>SEM Services</p>

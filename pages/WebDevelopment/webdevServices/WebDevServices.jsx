@@ -3,7 +3,7 @@ import styles from "./webDevServices.module.css";
 export const WebDevServices = ({ webservicesContent }) => {
   return (
     <div className={styles.webDevServices}>
-      <div className={styles.WebDevServiceswebdevTextServices}>
+      <div className={styles.webdevTextServices}>
         <h1>{webservicesContent.title} <span className={styles.spanText}>Services</span> Provided By Us</h1>
 
         <p>{webservicesContent.description}</p>

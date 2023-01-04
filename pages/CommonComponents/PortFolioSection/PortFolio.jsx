@@ -228,7 +228,7 @@ const PortFolio = () => {
           <div
             key={i}
             className={
-              i === imageIndex ? "styles.mainSlide styles.activeMainSlide" : styles.mainSlide
+              i === imageIndex ? [styles.mainSlide,styles.activeMainSlide] : styles.mainSlide
             }
           >
             <div className={styles.leftAnime}>

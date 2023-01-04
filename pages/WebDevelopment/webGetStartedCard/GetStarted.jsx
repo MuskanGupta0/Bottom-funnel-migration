@@ -1,5 +1,12 @@
 import React from "react";
 import styles from "./getStarted.module.css";
+
+// import img from '/Images/webdevmain/getstartedBanner.png';
+// const styling = {
+//    backgroundImage: `url('${img}')`,
+
+// }
+
 export const GetStarted = () => {
   return (
     <div className={styles.getStarted}>

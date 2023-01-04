@@ -8,6 +8,7 @@ import { GetStarted } from "./webGetStartedCard/GetStarted";
 import { WebDevTechStack } from "./webDevTachstack/WebDevTechStack";
 import { WebDevWhy } from "./webDevWhy/WebDevWhy";
 import { mernWhyContent } from "../Data/webdevPageData/whyBottomContent";
+
 import StoriesSection from "../CommonComponents/StoriesSection/StoriesSection";
 import { Industries } from "../CommonComponents/industries/Industries";
 import PlanProject from "../CommonComponents/PlanProject/PlanProject";
@@ -16,13 +17,12 @@ import PortFolio from "../CommonComponents/PortFolioSection/PortFolio";
 import { SeoblogSection } from "../CommonComponents/SeoBlogs/Seoblogs";
 import Revamping from "../CommonComponents/revamping/Revamping";
 import { TextDropdown } from "../CommonComponents/faqSection/Faqs";
+import ContectForm from "./ContectForm/ContectForm";
+import MainFooter from "../CommonComponents/FooterSection/MainFooter";
 
 export default function index() {
   return (
     <div>
-      {/* <h1 className={styles.sampleheading}>
-            Testing the nextjs for the migration
-          </h1> */}
 
       <WebdevBanner bannerContent={webDevMain} />
       <WebDevServices webservicesContent={webDevServices} />
@@ -40,7 +40,7 @@ export default function index() {
       <SeoblogSection />
       <Revamping />
       <TextDropdown />
-      {/* <ContectForm /> */}
+      <ContectForm />
       {/* <MainFooter /> */}
     </div>
   );

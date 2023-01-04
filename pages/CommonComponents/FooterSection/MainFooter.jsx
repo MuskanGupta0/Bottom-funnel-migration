@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import FooterTable from "./FooterTable";
-import "./mainFooter.css";
+import styles from "./mainFooter.module.css";
 
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
-import { PopupForm } from "../PopupForm/PopupForm";
+import { PopupForm } from "../../CommonComponents/PopupForm/PopupForm";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import { FiChevronDown } from "react-icons/fi";
 import { AiOutlineMail } from "react-icons/ai";
@@ -72,17 +72,17 @@ const MainFooter = () => {
   };
 
   return (
-    <div className="mainFooterSection">
-      <div className="rightFooter">
-        <div className="mapImageSection">
+    <div className={styles.mainFooterSection}>
+      <div className={styles.rightFooter}>
+        <div className={styles.mapImageSection}>
           {address.map((item, i) => (
             <OverlayTrigger
               key={i}
               placement="right"
               delay={{ show: 250, hide: 400 }}
               overlay={
-                <div className="tooltipCustomised">
-                  <div className="indicate"></div>
+                <div className={styles.tooltipCustomised}>
+                  <div className={styles.indicate}></div>
                   <p>{item.address}</p>
                 </div>
               }
@@ -91,17 +91,17 @@ const MainFooter = () => {
             </OverlayTrigger>
           ))}
 
-          <img src="Images/footer/gg.gif" alt="" />
+          <img src="Images/footer/gg.gif" alt="image" />
         </div>
 
-        <div className="footerLogo">
-          <div className="logoBottom">
-            <img src="Images/footer/whitelogobottom.png" alt="" />
-            <i className="taglinefooter">"Build Your Brands Presence"</i>
+        <div className={styles.footerLogo}>
+          <div className={styles.logoBottom}>
+            <img src="Images/footer/whitelogobottom.png" alt="image" />
+            <i className={styles.taglinefooter}>"Build Your Brands Presence"</i>
           </div>
 
-          <div className="footerAddress">
-            <div className="footerMapContactSection">
+          <div className={styles.footerAddress}>
+            <div className={styles.footerMapContactSection}>
               <li>
                 <FaPhoneAlt /> +91 8209366227
               </li>
@@ -121,7 +121,7 @@ const MainFooter = () => {
               style={{ display: whatsapp ? "flex" : "none" }}
               onMouseEnter={() => setWhatsapp(true)}
               onMouseLeave={() => setWhatsapp(false)}
-              className="MainFooter-whatsapp-container"
+              className={styles.MainFooterwhatsappContainer}
             >
               <div>
                 <h1>UAE</h1>
@@ -144,17 +144,17 @@ const MainFooter = () => {
               </div>
             </div>
 
-            <div className="footerSocialMediaSection">
+            <div className={styles.footerSocialMediaSection}>
               <a
                 target="_blank"
                 href="https://www.facebook.com/profile.php?id=100075774771610"
               >
-                <IconContext.Provider value={{ className: "socialIcons" }}>
+                <IconContext.Provider value={{ className: styles.socialIcons }}>
                   <FaFacebookF />
                 </IconContext.Provider>
               </a>
               <a target="_blank" href="https://twitter.com/BottomFunnel">
-                <IconContext.Provider value={{ className: "socialIcons" }}>
+                <IconContext.Provider value={{ className: styles.socialIcons }}>
                   <FaTwitter />
                 </IconContext.Provider>
               </a>
@@ -162,7 +162,7 @@ const MainFooter = () => {
                 target="_blank"
                 href="https://www.linkedin.com/company/bottomfunnel/mycompany/verification/"
               >
-                <IconContext.Provider value={{ className: "socialIcons" }}>
+                <IconContext.Provider value={{ className: styles.socialIcons }}>
                   <FaLinkedin />
                 </IconContext.Provider>
               </a>
@@ -170,7 +170,7 @@ const MainFooter = () => {
                 target="_blank"
                 href="https://www.instagram.com/bottomfunnelmarketing/"
               >
-                <IconContext.Provider value={{ className: "socialIcons" }}>
+                <IconContext.Provider value={{ className: styles.socialIcons }}>
                   <AiFillInstagram />
                 </IconContext.Provider>
               </a>
@@ -178,13 +178,13 @@ const MainFooter = () => {
                 target="_blank"
                 href="https://www.youtube.com/channel/UC-zyghDYFUgRSUlKTadvJuQ"
               >
-                <IconContext.Provider value={{ className: "socialIcons" }}>
+                <IconContext.Provider value={{ className: styles.socialIcons }}>
                   <FaYoutube />
                 </IconContext.Provider>
               </a>
             </div>
 
-            <div className="footerMapContactSection privacySection">
+            <div className={`${styles.footerMapContactSection}  ${styles.privacySection}`}>
               <li>Privacy Policy</li>
               <li></li>
               <li>ISMS Policy</li>
@@ -196,9 +196,9 @@ const MainFooter = () => {
           </div>
         </div>
       </div>
-      <div className="leftFooter">
+      <div className={styles.leftFooter}>
         {/* <p>Lorem ipsum dolor sit amet.</p> */}
-        <div className="startWith">
+        <div className={styles.startWith}>
           <h3>Start With Bottom Funnel Today</h3>
           <button onClick={handleOpen}>Plan Project</button>
 
@@ -210,7 +210,7 @@ const MainFooter = () => {
           >
             <Box sx={style}>
               <Typography id="modal-modal-title" variant="h6" component="h2">
-                <div className="popform">
+                <div className={styles.popform}>
                   <PopupForm />
                 </div>
               </Typography>
@@ -218,9 +218,9 @@ const MainFooter = () => {
           </Modal>
         </div>
 
-        <div className="footerServices">
+        <div className={styles.footerServices}>
           <FooterTable />
-          <div onClick={moreServices} className="moreServ">
+          <div onClick={moreServices} className={styles.moreServ}>
             <div>More Services</div>
             <div>
               <FiChevronDown />

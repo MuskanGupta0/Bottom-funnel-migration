@@ -227,7 +227,7 @@
   color: white;
 }
 
-.MainFooter-whatsapp-container {
+.MainFooterwhatsappContainer {
   position: fixed;
   bottom: 0;
   right: 28.5%;
@@ -247,18 +247,18 @@
   border-top-left-radius: 0;
 }
 
-.MainFooter-whatsapp-container > div {
+.MainFooterwhatsappContainer > div {
   width: 45%;
   margin-bottom: 2%;
 }
 
-.MainFooter-whatsapp-container > div > h1 {
+.MainFooterwhatsappContainer > div > h1 {
   font-size: 25px;
   margin: 2px;
   color: #ef4c23;
 }
 
-.MainFooter-whatsapp-container > div > h3 {
+.MainFooterwhatsappContainer > div > h3 {
   font-size: 18px;
   margin: 5px;
   margin-left: 10px;

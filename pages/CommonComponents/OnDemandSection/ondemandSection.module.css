@@ -10,7 +10,7 @@
   justify-content: center;
   column-gap: 1%;
   row-gap: 12px;
-  padding: 40px 4px;
+  /* padding: 40px 4px; */
   flex-wrap: wrap;
 }
 

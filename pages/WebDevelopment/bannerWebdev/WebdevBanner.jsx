@@ -2,7 +2,14 @@ import React from "react";
 import styles from "./webdevBanner.module.css";
 export const WebdevBanner = ({ bannerContent }) => {
   return (
-    <div className={styles.webDevBanner}>
+    <div className={styles.webDevBanner}
+      style={{
+        background: `url(${bannerContent.background})`,
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "100% 100%",
+      }}
+    >
       <div className={styles.webDebText}>
         <h1>
           <span>{bannerContent.title.orange}</span> {bannerContent.title.normal}</h1>
@@ -14,9 +21,3 @@ export const WebdevBanner = ({ bannerContent }) => {
   );
 };
 
-// style={{
-//   background: `url(${bannerContent.background})`,
-//   backgroundPosition: "center",
-//   backgroundRepeat: "no-repeat",
-//   backgroundSize: "100% 100%",
-// }}
