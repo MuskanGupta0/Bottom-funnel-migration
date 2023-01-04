@@ -2333,12 +2333,13 @@ export const backbonejsData = {
 };
 
 export const svelteData = {
-  title: "Best svelte developers in the market | Bottom Funnel",
+  title:
+    "Best svelte developers in the market | Bottom Funnel Technologies Pvt. Ltd.",
   description:
     "Bottom Funnel is a globally dominant company having highly experienced svelte developers. Our svelte development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/svelteSkillsPhotos/banner.png",
+    image: "/Images/skillsPhotos/svelteSkillsPhotos/banner.webp",
     title: "Svelte Development Services",
     description:
       "Delivering on your business vision with quality svelte development.",
@@ -2346,7 +2347,7 @@ export const svelteData = {
   isDes: true,
   desData: {
     title: "Svelte",
-    image: "/Images/svelteSkillsPhotos/svelte-logo.png",
+    image: "/Images/skillsPhotos/svelteSkillsPhotos/svelte-logo.webp",
     description:
       "Svelte is a free and open-source front end compiler created by Rich Harris and maintained by the Svelte core team members. Svelte is not a monolithic JavaScript library imported by applications: instead, Svelte compiles HTML templates to specialized code that manipulates the DOM directly, which may reduce the size of transferred files and give better client performance, application code is also processed by the compiler, inserting calls to automatically recompute data and re-render UI elements when the data they depend on is modified.",
   },
@@ -2356,7 +2357,7 @@ export const svelteData = {
     cardsData: [
       {
         img: {
-          src: "/Images/svelteSkillsPhotos/computer-leaf.png",
+          src: "/Images/skillsPhotos/svelteSkillsPhotos/computer-leaf.webp",
           alt: "Lightweight logo",
         },
         title: "Lightweight",
@@ -2366,7 +2367,7 @@ export const svelteData = {
       },
       {
         img: {
-          src: "/Images/svelteSkillsPhotos/settings-loading.png",
+          src: "/Images/skillsPhotos/svelteSkillsPhotos/settings-loading.webp",
           alt: "All in one logo",
         },
         title: "All in one",
@@ -2375,7 +2376,7 @@ export const svelteData = {
       },
       {
         img: {
-          src: "/Images/svelteSkillsPhotos/fast-run.png",
+          src: "/Images/skillsPhotos/svelteSkillsPhotos/fast-run.webp",
           alt: "Fast logo",
         },
         title: "Fast",
@@ -2384,7 +2385,7 @@ export const svelteData = {
       },
       {
         img: {
-          src: "/Images/svelteSkillsPhotos/settings-loading.png",
+          src: "/Images/skillsPhotos/svelteSkillsPhotos/settings-loading.webp",
           alt: "Easy to learn logo",
         },
         title: "Easy to learn",
@@ -2393,7 +2394,7 @@ export const svelteData = {
       },
       {
         img: {
-          src: "/Images/svelteSkillsPhotos/documents.png",
+          src: "/Images/skillsPhotos/svelteSkillsPhotos/documents.webp",
           alt: "stable logo",
         },
         title: "stable",
@@ -2402,7 +2403,7 @@ export const svelteData = {
       },
       {
         img: {
-          src: "/Images/svelteSkillsPhotos/loading.png",
+          src: "/Images/skillsPhotos/svelteSkillsPhotos/loading.webp",
           alt: "Reusable components logo",
         },
         title: "Reusable components",
@@ -2414,7 +2415,7 @@ export const svelteData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Svelte",
-    image: "/Images/svelteSkillsPhotos/big-left-image.png",
+    image: "/Images/skillsPhotos/svelteSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -2428,54 +2429,55 @@ export const svelteData = {
   BookCallData: {
     title: "Need our svelte developers to build your application?",
     btn: "Book a call now",
+    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
-  isRemarkable: false,
+  isRemarkable: true,
   RemarkableData: {
-    title: "Remarkable Angularjs Services",
+    title: "benefits of using svelte",
     description:
-      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+      "Svelte is popular because it is faster than any other library. This is due to the deferred step of loading the framework for creating the virtual DOM.",
     cardsData: [
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/open-source.png",
-          alt: "Open-source logo",
+          src: "/Images/skillsPhotos/vuejsSkillsPhotos/easy.webp",
+          alt: "Easy to learn logo",
         },
-        title: "Open-source",
+        title: "Easy to learn",
       },
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/complex-handling.png",
-          alt: "Easy complex component handling logo",
+          src: "/Images/skillsPhotos/nodejsphotos/collab.webp",
+          alt: "No virtual DOM logo",
         },
-        title: "Easy complex component handling",
+        title: "No virtual DOM",
       },
       {
         img: {
-          src: "/Images/angularjsSKillsPhotos/time-saving.png",
-          alt: "Time-Saving Process logo",
+          src: "/Images/skillsPhotos/vuejsSkillsPhotos/cross-platform.webp",
+          alt: "Cross-platform logo",
         },
-        title: "Time-Saving Process",
+        title: "Cross-platform",
       },
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/effective-framework.png",
-          alt: "Effective Framework logo",
+          src: "/Images/skillsPhotos/nextjsSkillsPhotos/setting-task.webp",
+          alt: "Client and server-side rendering logo",
         },
-        title: "Effective Framework",
+        title: "Client and server-side rendering",
       },
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/reuseable-code.png",
-          alt: "Reusable code logo",
+          src: "/Images/skillsPhotos/nextjsSkillsPhotos/computer-research.webp",
+          alt: "SEO support logo",
         },
-        title: "Reusable code",
+        title: "SEO support",
       },
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/testing-now-then.png",
-          alt: "Enables Testing Now and Then logo",
+          src: "/Images/skillsPhotos/nextjsSkillsPhotos/fast-run.webp",
+          alt: "Fast rendering logo",
         },
-        title: "Enables Testing Now and Then",
+        title: "Fast rendering",
       },
     ],
   },
